@@ -4,6 +4,7 @@ import function
 import time
 #now = time.strftime("%d-%m-%Y %H:%M:%S")
 now = time.strftime("%d-%b-%Y %H:%M:%S")
+print("My time start now\n")
 print("Time is",now)
 while True:
     option = input("Please add show edit remove or exit \n")
